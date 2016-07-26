@@ -1,0 +1,7 @@
+system { molecule 
+  atom { Fe 8.0 COOR 0. 0. 0. } 
+  nspin { 6 2 } 
+}
+
+include Fe.ecp 
+

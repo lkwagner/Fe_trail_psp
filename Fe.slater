@@ -1,0 +1,12 @@
+SLATER 
+orbitals { 
+  cutoff_mo
+  orbfile orb
+  include gaussbasis
+  nmo 6
+  centers { useatoms } 
+}
+detwt { 1 } 
+states { 1 2 3 4 5 6 
+   1 6 
+}
